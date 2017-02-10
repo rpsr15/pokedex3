@@ -17,6 +17,7 @@
 		41D75D451E4DA22300B7D6C0 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75D441E4DA22300B7D6C0 /* csv.swift */; };
 		41D75D4E1E4DA57A00B7D6C0 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75D4D1E4DA57A00B7D6C0 /* PokeCell.swift */; };
 		41D75D501E4DA61E00B7D6C0 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75D4F1E4DA61E00B7D6C0 /* Pokemon.swift */; };
+		41D75D521E4DD02A00B7D6C0 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75D511E4DD02A00B7D6C0 /* PokemonDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		41D75D461E4DA25800B7D6C0 /* pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokemon.ttf; sourceTree = "<group>"; };
 		41D75D4D1E4DA57A00B7D6C0 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 		41D75D4F1E4DA61E00B7D6C0 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		41D75D511E4DD02A00B7D6C0 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				4155C03A1E4B0E9200B04DA1 /* ViewController.swift */,
+				41D75D511E4DD02A00B7D6C0 /* PokemonDetailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				41D75D501E4DA61E00B7D6C0 /* Pokemon.swift in Sources */,
 				41D75D451E4DA22300B7D6C0 /* csv.swift in Sources */,
 				4155C03B1E4B0E9200B04DA1 /* ViewController.swift in Sources */,
+				41D75D521E4DD02A00B7D6C0 /* PokemonDetailVC.swift in Sources */,
 				41D75D4E1E4DA57A00B7D6C0 /* PokeCell.swift in Sources */,
 				4155C0391E4B0E9200B04DA1 /* AppDelegate.swift in Sources */,
 			);

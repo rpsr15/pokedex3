@@ -93,6 +93,21 @@ class ViewController: UIViewController , UICollectionViewDelegate , UICollection
         }
     }
         // MARK: UISearchBarDelegate
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        var poke : Pokemon!
+        if inSearchMode{
+            poke = self.filteredPokemons[indexPath.row]
+        }
+        else{
+            poke = self.pokemons[indexPath.row]
+        }
+        
+        performSegue(withIdentifier: "PokemonDetailVC", sender: poke)
+        
+        
+    }
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         print("search key is \(searchText.lowercased())")
         if  searchText == ""{
@@ -130,6 +145,17 @@ class ViewController: UIViewController , UICollectionViewDelegate , UICollection
         searchBar.text = ""
         view.endEditing(true)
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "PokemonDetailVC"{
+            if let detailsVC = segue.destination as? PokemonDetailVC {
+                if let poke = sender as? Pokemon{
+                    detailsVC.pokemon = poke
+                }
+            }
+        
+    }
 
+}
 }
 
