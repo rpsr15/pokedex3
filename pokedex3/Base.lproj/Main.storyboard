@@ -196,7 +196,7 @@
                                             <constraint firstAttribute="width" constant="100" id="lsd-va-lyA"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THe bulb on its back frows sa it absorbs nutrierns. the ul dsafdsf sldfjdslk" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G63-Ad-aQV">
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THe bulb on its back frows sa it absorbs nutrierns. the ul dsafdsf sldfjdslk" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G63-Ad-aQV">
                                         <rect key="frame" x="108" y="0.0" width="235" height="100"/>
                                         <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="14"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -244,19 +244,19 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="0Z4-7H-HLj">
                                         <rect key="frame" x="174" y="0.0" width="169" height="55"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Yt-rc-1Yp">
+                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Yt-rc-1Yp">
                                                 <rect key="frame" x="0.0" y="0.0" width="169" height="15"/>
                                                 <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="15"/>
                                                 <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100\" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="maP-KD-Xur">
+                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100\" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="maP-KD-Xur">
                                                 <rect key="frame" x="0.0" y="20" width="169" height="15"/>
                                                 <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="15"/>
                                                 <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Poison/Grass" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRa-7k-Ru8">
+                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Poison/Grass" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRa-7k-Ru8">
                                                 <rect key="frame" x="0.0" y="40" width="169" height="15"/>
                                                 <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="15"/>
                                                 <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -270,19 +270,22 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c6J-bf-iTq">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c6J-bf-iTq">
                                 <rect key="frame" x="16" y="385" width="343" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Next Evolution: level 47 hsdf" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBs-IQ-rDb">
-                                        <rect key="frame" x="47" y="2" width="288" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next Evolution: level 47 hsdf" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBs-IQ-rDb">
+                                        <rect key="frame" x="67" y="6.5" width="209" height="12"/>
                                         <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="12"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.34509803919999998" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="AhR-Jc-PgR"/>
+                                    <constraint firstItem="ZBs-IQ-rDb" firstAttribute="centerX" secondItem="c6J-bf-iTq" secondAttribute="centerX" id="S9o-cx-RpO"/>
+                                    <constraint firstItem="ZBs-IQ-rDb" firstAttribute="centerY" secondItem="c6J-bf-iTq" secondAttribute="centerY" id="wkZ-WL-eoa"/>
+                                </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="K0q-W1-fOv">
                                 <rect key="frame" x="16" y="311" width="343" height="55"/>
@@ -317,19 +320,19 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="F6T-sO-5bS">
                                         <rect key="frame" x="174" y="0.0" width="169" height="55"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mtk-UC-atJ">
+                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mtk-UC-atJ">
                                                 <rect key="frame" x="0.0" y="0.0" width="169" height="15"/>
                                                 <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="15"/>
                                                 <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aa8-bx-vlM">
+                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aa8-bx-vlM">
                                                 <rect key="frame" x="0.0" y="20" width="169" height="15"/>
                                                 <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="15"/>
                                                 <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tv7-DU-gIn">
+                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tv7-DU-gIn">
                                                 <rect key="frame" x="0.0" y="40" width="169" height="15"/>
                                                 <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="15"/>
                                                 <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -343,25 +346,37 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="101" translatesAutoresizingMaskIntoConstraints="NO" id="f0L-Vf-Jbl">
+                                <rect key="frame" x="137.5" y="426" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="eVA-Uc-Gzb"/>
+                                    <constraint firstAttribute="width" constant="100" id="wP5-VM-nI1"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="v1Q-4H-15P" firstAttribute="height" secondItem="Vv1-qj-2Uw" secondAttribute="height" multiplier="0.1" id="1S3-bE-Q3F"/>
                             <constraint firstItem="QdU-rH-ecr" firstAttribute="trailing" secondItem="Vv1-qj-2Uw" secondAttribute="trailingMargin" id="2a5-yD-mag"/>
+                            <constraint firstItem="c6J-bf-iTq" firstAttribute="trailing" secondItem="Vv1-qj-2Uw" secondAttribute="trailingMargin" id="7RC-Uk-q2v"/>
                             <constraint firstItem="QdU-rH-ecr" firstAttribute="leading" secondItem="Vv1-qj-2Uw" secondAttribute="leadingMargin" id="8It-Xe-B47"/>
+                            <constraint firstItem="f0L-Vf-Jbl" firstAttribute="top" secondItem="c6J-bf-iTq" secondAttribute="bottom" constant="16" id="8gu-5U-pIn"/>
                             <constraint firstAttribute="trailing" secondItem="v1Q-4H-15P" secondAttribute="trailing" id="CEW-7k-MsC"/>
                             <constraint firstAttribute="trailing" secondItem="EOB-ED-9aI" secondAttribute="trailing" constant="16" id="D7o-q4-XWS"/>
                             <constraint firstItem="Pms-vQ-7si" firstAttribute="leading" secondItem="Vv1-qj-2Uw" secondAttribute="leadingMargin" id="MIK-sU-N86"/>
                             <constraint firstItem="EOB-ED-9aI" firstAttribute="top" secondItem="Pms-vQ-7si" secondAttribute="bottom" constant="8" id="NSi-BX-yN2"/>
+                            <constraint firstItem="f0L-Vf-Jbl" firstAttribute="centerX" secondItem="Vv1-qj-2Uw" secondAttribute="centerX" id="Otl-RQ-FsU"/>
                             <constraint firstItem="EOB-ED-9aI" firstAttribute="leading" secondItem="Vv1-qj-2Uw" secondAttribute="leading" constant="16" id="PEf-7h-Thp"/>
                             <constraint firstItem="v1Q-4H-15P" firstAttribute="leading" secondItem="Vv1-qj-2Uw" secondAttribute="leading" id="PKr-PV-DBU"/>
                             <constraint firstAttribute="trailingMargin" secondItem="4O3-63-l0p" secondAttribute="trailing" id="QSp-S8-rd7"/>
                             <constraint firstItem="4O3-63-l0p" firstAttribute="top" secondItem="QdU-rH-ecr" secondAttribute="bottom" constant="8" id="SEz-FL-IOc"/>
                             <constraint firstItem="K0q-W1-fOv" firstAttribute="top" secondItem="4O3-63-l0p" secondAttribute="bottom" constant="22" id="XNU-0N-yzX"/>
                             <constraint firstItem="K0q-W1-fOv" firstAttribute="leading" secondItem="Vv1-qj-2Uw" secondAttribute="leadingMargin" id="YZO-jU-jm5"/>
+                            <constraint firstItem="c6J-bf-iTq" firstAttribute="leading" secondItem="Vv1-qj-2Uw" secondAttribute="leadingMargin" id="a0K-xf-gQS"/>
                             <constraint firstItem="QdU-rH-ecr" firstAttribute="top" secondItem="EOB-ED-9aI" secondAttribute="bottom" constant="11" id="asT-Yd-wG9"/>
                             <constraint firstItem="Pms-vQ-7si" firstAttribute="top" secondItem="v1Q-4H-15P" secondAttribute="bottom" constant="7.5" id="azT-sz-yRU"/>
                             <constraint firstItem="v1Q-4H-15P" firstAttribute="top" secondItem="Vv1-qj-2Uw" secondAttribute="top" id="d4Y-9e-Hqj"/>
+                            <constraint firstItem="c6J-bf-iTq" firstAttribute="top" secondItem="K0q-W1-fOv" secondAttribute="bottom" constant="19" id="eWN-9m-GZh"/>
                             <constraint firstItem="Pms-vQ-7si" firstAttribute="trailing" secondItem="Vv1-qj-2Uw" secondAttribute="trailingMargin" id="ga6-r4-rYG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="K0q-W1-fOv" secondAttribute="trailing" id="hIg-4M-Kpe"/>
                             <constraint firstItem="4O3-63-l0p" firstAttribute="leading" secondItem="Vv1-qj-2Uw" secondAttribute="leadingMargin" id="lTd-mO-FlS"/>
@@ -372,6 +387,8 @@
                         <outlet property="baseAttackLabel" destination="Mtk-UC-atJ" id="H4B-w1-y0z"/>
                         <outlet property="defenseLabel" destination="Tv7-DU-gIn" id="q3t-hs-95o"/>
                         <outlet property="nameLabel" destination="yt1-Hx-6ey" id="c5N-Uu-20p"/>
+                        <outlet property="nextEvoName" destination="ZBs-IQ-rDb" id="O5N-qg-SVw"/>
+                        <outlet property="nextEvoThumb" destination="f0L-Vf-Jbl" id="rKn-4O-iGU"/>
                         <outlet property="pokedexIDLabel" destination="aa8-bx-vlM" id="XrM-wT-rvc"/>
                         <outlet property="pokemonDetails" destination="G63-Ad-aQV" id="xHs-5O-Bbs"/>
                         <outlet property="segment" destination="Pms-vQ-7si" id="aoW-rB-kap"/>
@@ -387,6 +404,7 @@
     </scenes>
     <resources>
         <image name="100" width="120" height="120"/>
+        <image name="101" width="120" height="120"/>
         <image name="4" width="120" height="120"/>
         <image name="back" width="100" height="67"/>
         <image name="bg" width="1920" height="1200"/>

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class PokemonDetailVC: UIViewController {
     var pokemon : Pokemon!
@@ -21,9 +22,16 @@ class PokemonDetailVC: UIViewController {
     @IBOutlet weak var weightLabel: UILabel!
     @IBOutlet weak var HeightLabel: UILabel!
     @IBOutlet weak var typeLabel: UILabel!
+    @IBOutlet weak var nextEvoName : UILabel!
+    @IBOutlet weak var nextEvoThumb : UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         configureUI()
+        pokemon.downloadPokemonDetails {
+            // only called after the network call is complere
+            self.updateUI()
+        }
+        
         // Do any additional setup after loading the view.
     }
     @IBAction func backButtonPressed(_ sender: Any) {
@@ -36,6 +44,31 @@ class PokemonDetailVC: UIViewController {
             self.pokedexIDLabel.text = "\(pokemon.id)"
             
         }
+    }
+    func updateUI(){
+        print(#function)
+        self.baseAttackLabel.text = pokemon.attack
+        self.defenseLabel.text = pokemon.defense
+        self.weightLabel.text = pokemon.weight
+        self.HeightLabel.text = pokemon.height
+        self.typeLabel.text = pokemon.type
+        self.pokemonDetails.text = pokemon.details
+        self.nextEvoName.text = pokemon.nextEvolutoinText
+        if let image = UIImage(named: "\(self.pokemon.nextEvolutionId)"){
+            self.nextEvoThumb.image = image
+        }
+        
+        self.baseAttackLabel.isHidden = false
+        self.defenseLabel.isHidden = false
+        self.weightLabel.isHidden = false
+        self.HeightLabel.isHidden = false
+        self.typeLabel.isHidden = false
+        self.pokedexIDLabel.isHidden = false
+        self.pokemonDetails.isHidden = false
+        self.nextEvoName.isHidden = false
+        if self.pokemon.nextEvolutoinText != "" && !self.pokemon.nextEvolutoinText.lowercased().contains("mega"){
+            self.nextEvoThumb.isHidden = false
+    }
     }
 
     override func didReceiveMemoryWarning() {

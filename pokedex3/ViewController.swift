@@ -22,6 +22,7 @@ class ViewController: UIViewController , UICollectionViewDelegate , UICollection
     
     // MARK: Methods
     override func viewDidLoad() {
+        print(#function)
         super.viewDidLoad()
      
             self.loadPokemons()
